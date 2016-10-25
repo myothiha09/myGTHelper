@@ -1,0 +1,157 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myothiha.mygthelper.tuesday">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:paddingLeft="5dp"
+        android:paddingTop="7dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Time"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Subject"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Location"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="2"
+                android:background="@color/bg"
+                android:padding="2dip" />
+        </TableRow>
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:05 - 12:55"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MATH 1552"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skiles 169"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="2"
+                android:background="@color/bg"
+                android:padding="2dip" />
+        </TableRow>
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3:05 - 4:25"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENGL 1101"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steph C Hall 106"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="2"
+                android:background="@color/bg"
+                android:padding="2dip" />
+        </TableRow>
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4:35 - 5:55"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CS 1331"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IC 111"
+                android:textColor="@color/font"
+                android:layout_column="0" />
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>
+
+

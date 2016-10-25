@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myothiha.mygthelper.monday">
+
+    <!-- TODO: Update blank fragment layout -->
+ <TableLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@color/bg"
+     android:paddingLeft="5dp"
+     android:paddingTop="7dp"
+     android:stretchColumns="*">
+
+     <TableRow
+         android:layout_width="0dp"
+         android:layout_height="match_parent">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text="Time"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text="Subject"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:text="Location"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+     </TableRow>
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="5dp"
+             android:layout_weight="2"
+             android:background="@color/bg"
+             android:padding="2dip" />
+     </TableRow>
+     <TableRow
+         android:layout_width="0dp"
+         android:layout_height="match_parent">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="9:05 - 9:55"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="PHYS 2211"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Howey L4"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+     </TableRow>
+
+
+
+
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="5dp"
+             android:layout_weight="2"
+             android:background="@color/bg"
+             android:padding="2dip" />
+     </TableRow>
+     <TableRow
+         android:layout_width="0dp"
+         android:layout_height="match_parent">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="12:05 - 12:55"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Math 1552"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="CoC 16"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+     </TableRow>
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="5dp"
+             android:layout_weight="2"
+             android:background="@color/bg"
+             android:padding="2dip" />
+     </TableRow>
+     <TableRow
+         android:layout_width="0dp"
+         android:layout_height="match_parent">
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="1:35 - 2:25"
+         android:textColor="@color/font"
+         android:layout_column="0" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="CS 1331"
+         android:textColor="@color/font"
+         android:layout_column="0" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Paper Tri 109"
+         android:textColor="@color/font"
+         android:layout_column="0" />
+     </TableRow>
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="5dp"
+             android:layout_weight="2"
+             android:background="@color/bg"
+             android:padding="2dip" />
+     </TableRow>
+     <TableRow
+         android:layout_width="0dp"
+         android:layout_height="match_parent">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="6:05 - 7:25 "
+             android:textColor="@color/font"
+             android:layout_column="0" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="PHYS 2211 (EXAM)"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Clough 152"
+             android:textColor="@color/font"
+             android:layout_column="0" />
+     </TableRow>
+ </TableLayout>
+
+</FrameLayout>
